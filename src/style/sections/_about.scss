@@ -78,4 +78,27 @@
       }
     }
   }
+
+  .about-skills {
+    @include respond(phone) {
+      padding-bottom: 5rem;
+    }
+
+    &__cpp{
+      display: flex;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+     border: 10dp;
+     border-color: crimson;
+
+      @include respond(tab-port) {
+        padding-bottom: 6.4rem;
+      }
+      @include respond(tab-land) {
+        height: 100%;
+      }
+    }
+
+ }
 }
