@@ -33,26 +33,35 @@ export const projectsData = [
     info: 'This is my portfolio website which show information about myself ',
     info2: '',
     url: '',
-    repo: 'https://github.com/rishijadhav211', // if no repo, the button will not show up
+    repo: '#', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'converter.jpg',
+    title: 'Multi Converter',
+    info: 'This is a unit Converter Android application through which one can convert any entity(storage, weight, length, density, volume, time, power, temperature) to any respective units.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/rishijadhav211', // if no repo, the button will not show up
+    url: 'https://drive.google.com/file/d/1t0D4BztXXQB3oOAfp7Vzjugq_Ttqqr78/view?usp=sharing',
+    repo: '#', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'onetap.jpg',
+    title: 'OneTap WhatsApp Message',
+    info: 'This is an android application through which users can directly message without saving the Mobile number of another person',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://drive.google.com/file/d/1XwQGwgteGhI59dJzIYIJGffuCDe-etlt/view?usp=sharing',
+    repo: '#', // if no repo, the button will not show up
   },
+  // {
+  //   id: nanoid(),
+  //   img: 'project.jpg',
+  //   title: '',
+  //   info: '',
+  //   info2: '',
+  //   url: '',
+  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  // },
 ];
 
 // CONTACT DATA
